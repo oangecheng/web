@@ -44,5 +44,10 @@ public class HelloController {
     public String postBody2(@RequestBody User user) {
         return  user.username;
     }
+
+    @GetMapping("love")
+    public String love() {
+        return "夏文欣是我的小宝贝！";
+    }
 }
 
