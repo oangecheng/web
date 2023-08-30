@@ -1,7 +1,6 @@
 package com.orangezax.helloworld.controller;
 
 import com.orangezax.helloworld.data.User;
-import org.jetbrains.annotations.NotNull;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
